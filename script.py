@@ -40,4 +40,7 @@ def main(count):
         c.secho(f"Process completed at: {dt.now()}")
 
 if __name__ == "__main__":
+    t1 = tm.time()
     main()
+    t2 = tm.time()
+    c.secho(f"Total time taken: {round((t2-t1), 2)}")
