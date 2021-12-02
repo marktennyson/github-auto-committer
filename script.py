@@ -103,4 +103,4 @@ if __name__ == "__main__":
     t1:float = tm.time()
     main()
     t2:float = tm.time()
-    Console.log.Info(f"Total time taken: {round((t2-t1), 2)}")
+    Console.log.Info(f"Total time taken: {round((t2-t1), 2)} seconds")
